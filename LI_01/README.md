@@ -40,7 +40,7 @@
 - **Аналитика:**
 
     - `calculateTotalAmount()`: Вычисляет общую сумму всех транзакций.
-    - `c`alculateAverageTransactionAmount()`: Вычисляет среднюю сумму транзакций.
+    - `calculateAverageTransactionAmount()`: Вычисляет среднюю сумму транзакций.
     - `calculateTotalDebitAmount()`: Суммирует суммы всех дебетовых транзакций.
     - `mapTransactionDescriptions()`: Возвращает массив описаний всех транзакций.
     - `findMostTransactionsMonth()`: Определяет месяц с наибольшим количеством транзакций.
