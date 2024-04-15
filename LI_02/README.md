@@ -19,7 +19,7 @@ updateActivity(): Функция, отображающая полученную 
 
 ## Примеры использования проекта
 
-
+![image](https://github.com/sonimoo/JS/blob/main/LI_02/photo_2024-04-15_23-30-06.jpg)
 
 ## Контрольные вопросы
 
