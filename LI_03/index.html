@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LI_03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Учёт финансов</h1>
+
+    <form id="transactionForm">
+        <input type="datetime-local" id="date" placeholder="Date and Time" required>
+        <input type="text" id="amount" placeholder="Сумма" required>
+        <input type="text" id="description" placeholder="Описание" required>
+        <select id="category">
+            <optgroup label="Расходы">
+                <option value="Food">Питание</option>
+                <option value="Transport">Транспорт</option>
+                <option value="Housing">Жилье</option>
+                <option value="Health">Здоровье</option>
+            </optgroup>
+            <optgroup label="Доходы">
+                <option value="Salary">Зарплата</option>
+                <option value="Bonuses">Бонусы</option>
+                <option value="Dividends">Дивиденды</option>
+            </optgroup>
+        </select>
+        
+        
+        <button type="submit">Добавить транзакцию</button>
+    </form>
+
+    <table id="transactionTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Дата и Время</th>
+                <th>Категория</th>
+                <th>Описание</th>
+                <th>Действие</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <div id="totalAmount">Итого: 0</div>
+    <div id="detailedDescription"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

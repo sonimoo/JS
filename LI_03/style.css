@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Улучшает шрифт для читаемости */
+}
+
+table {
+    width: 80%; /* Определяет ширину таблицы относительно экрана */
+    max-width: 600px; /* Максимальная ширина таблицы */
+    margin: 20px 0; /* Отступ сверху и снизу */
+    border-collapse: collapse; /* Удаляет двойные границы между ячейками */
+}
+
+th, td {
+    border: 1px solid black; /* Черные рамки для ячеек и заголовков */
+    padding: 8px;
+    text-align: left;
+}
+
+.positive {
+    background-color: lightgreen; /* Зеленый фон для положительных транзакций */
+}
+
+.negative {
+    background-color: lightcoral; /* Красный фон для отрицательных транзакций */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 300px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0; /* Отступ между элементами формы */
+    box-sizing: border-box; /* Учитывает padding и border в ширине элемента */
+}
+
+#detailedDescription, #totalAmount {
+    width: 80%;
+    max-width: 600px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#detailedDescription {
+    background-color: #f8f8f8;
+}
+
+#totalAmount {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
